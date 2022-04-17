@@ -13,7 +13,7 @@ object TaskBitmapApp {
   def main(args: Array[String]): Unit = {
 
     val sparkConf: SparkConf = new SparkConf().setAppName("task_bitmap_app")
-      //.setMaster("local[*]")
+      .setMaster("local[*]")
 
     val sparkContext = new SparkContext(sparkConf)
 
