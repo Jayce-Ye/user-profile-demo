@@ -31,7 +31,7 @@
       <module name="task-ml" options="-parameters" />
       <module name="task-tag-merge" options="-parameters" />
       <module name="task-tag-sql" options="-parameters" />
-      <module name="user_profile_demo" options="-parameters" />
+      <module name="user-profile-demo" options="-parameters" />
       <module name="web-app" options="-parameters" />
     </option>
   </component>
