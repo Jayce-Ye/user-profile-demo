@@ -17,8 +17,6 @@
         <module>manager</module>
         <module>task</module>
         <module>web-app</module>
-        <module>task-bitmap-ck</module>
-        <module>task-bitmap-ck1</module>
     </modules>
 
 

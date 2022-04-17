@@ -6,13 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="task" />
-        <module name="web-app" />
+        <module name="task-bitmap-ck" />
+        <module name="task-common" />
+        <module name="task-ml" />
         <module name="manager" />
+        <module name="task-tag-sql" />
+        <module name="task-export-ck" />
+        <module name="web-app" />
+        <module name="task" />
+        <module name="task-tag-merge" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="task-bitmap-ck" target="1.8" />
       <module name="task-bitmap-ck1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +27,11 @@
       <module name="task" options="-parameters" />
       <module name="task-bitmap-ck" options="-parameters" />
       <module name="task-bitmap-ck1" options="-parameters" />
+      <module name="task-common" options="-parameters" />
+      <module name="task-export-ck" options="-parameters" />
+      <module name="task-ml" options="-parameters" />
+      <module name="task-tag-merge" options="-parameters" />
+      <module name="task-tag-sql" options="-parameters" />
       <module name="web-app" options="-parameters" />
     </option>
   </component>

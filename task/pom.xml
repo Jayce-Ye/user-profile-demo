@@ -8,6 +8,14 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>task-common</module>
+        <module>task-tag-sql</module>
+        <module>task-tag-merge</module>
+        <module>task-export-ck</module>
+        <module>task-bitmap-ck</module>
+        <module>task-ml</module>
+    </modules>
 
     <artifactId>task</artifactId>
 
