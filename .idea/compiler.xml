@@ -11,6 +11,7 @@
         <module name="task-ml" />
         <module name="manager" />
         <module name="task-tag-sql" />
+        <module name="submitter" />
         <module name="web-app" />
         <module name="task-export-ck" />
         <module name="task-tag-merge" />
@@ -23,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="manager" options="-parameters" />
+      <module name="submitter" options="-parameters" />
       <module name="task" options="-parameters" />
       <module name="task-bitmap-ck" options="-parameters" />
       <module name="task-bitmap-ck1" options="-parameters" />

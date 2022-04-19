@@ -17,5 +17,6 @@
         <module>manager</module>
         <module>task</module>
         <module>web-app</module>
+        <module>submitter</module>
     </modules>
 </project>
