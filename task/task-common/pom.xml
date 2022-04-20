@@ -11,17 +11,25 @@
 
     <artifactId>task-common</artifactId>
     <packaging>pom</packaging>
-
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
             <!-- 该插件用于将Scala代码编译成class文件 -->
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
                 <version>3.4.6</version>
-                <configuration>
-                    <scalaCompatVersion>2.12.11</scalaCompatVersion>                  <scalaVersion>${scala.version}</scalaVersion>
-                </configuration>
                 <executions>
                     <execution>
                         <!-- 声明绑定到maven的compile阶段 -->
@@ -32,7 +40,6 @@
                     </execution>
                 </executions>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>

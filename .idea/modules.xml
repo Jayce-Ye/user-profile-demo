@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/submitter/spark-rest-submitter.iml" filepath="$PROJECT_DIR$/submitter/spark-rest-submitter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task.iml" filepath="$PROJECT_DIR$/task/task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task-bitmap-ck/task-bitmap-ck.iml" filepath="$PROJECT_DIR$/task/task-bitmap-ck/task-bitmap-ck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task-common/task-common.iml" filepath="$PROJECT_DIR$/task/task-common/task-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task-export-ck/task-export-ck.iml" filepath="$PROJECT_DIR$/task/task-export-ck/task-export-ck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task-ml/task-ml.iml" filepath="$PROJECT_DIR$/task/task-ml/task-ml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task-tag-merge/task-tag-merge.iml" filepath="$PROJECT_DIR$/task/task-tag-merge/task-tag-merge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task-tag-sql/task-tag-sql.iml" filepath="$PROJECT_DIR$/task/task-tag-sql/task-tag-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_profile_demo.iml" filepath="$PROJECT_DIR$/user_profile_demo.iml" />
+    </modules>
+  </component>
+</project>

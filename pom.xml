@@ -16,7 +16,22 @@
     <modules>
         <module>manager</module>
         <module>task</module>
-        <module>web-app</module>
         <module>submitter</module>
     </modules>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.68</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.18</version>
+        </dependency>
+    </dependencies>
+
+
 </project>

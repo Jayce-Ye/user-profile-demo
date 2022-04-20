@@ -2,38 +2,42 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="task-bitmap-ck" />
         <module name="task-ml" />
         <module name="manager" />
         <module name="task-tag-sql" />
-        <module name="submitter" />
-        <module name="web-app" />
         <module name="task-export-ck" />
+        <module name="spark-rest-submitter" />
+        <module name="task-bitmap-ck" />
         <module name="task-tag-merge" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="task-bitmap-ck1" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="manager" target="1.8" />
+      <module name="spark-rest-submitter" target="1.8" />
+      <module name="task" target="1.8" />
+      <module name="task-bitmap-ck" target="1.8" />
+      <module name="task-common" target="1.8" />
+      <module name="task-export-ck" target="1.8" />
+      <module name="task-ml" target="1.8" />
+      <module name="task-tag-merge" target="1.8" />
+      <module name="task-tag-sql" target="1.8" />
+      <module name="user_profile_demo" target="1.8" />
+      <module name="web-app" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="manager" options="-parameters" />
-      <module name="submitter" options="-parameters" />
-      <module name="task" options="-parameters" />
+      <module name="spark-rest-submitter" options="-parameters" />
       <module name="task-bitmap-ck" options="-parameters" />
-      <module name="task-bitmap-ck1" options="-parameters" />
-      <module name="task-common" options="-parameters" />
       <module name="task-export-ck" options="-parameters" />
       <module name="task-ml" options="-parameters" />
       <module name="task-tag-merge" options="-parameters" />
       <module name="task-tag-sql" options="-parameters" />
-      <module name="user-profile-demo" options="-parameters" />
       <module name="web-app" options="-parameters" />
     </option>
   </component>
