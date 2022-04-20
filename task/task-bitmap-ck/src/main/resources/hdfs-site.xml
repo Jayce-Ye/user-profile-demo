@@ -3,12 +3,12 @@
     <!-- nn web端访问地址-->
     <property>
         <name>dfs.namenode.http-address</name>
-        <value>bigdata01:9870</value>
+        <value>node-etl-01:9870</value>
     </property>
     <!-- 2nn web端访问地址-->
     <property>
         <name>dfs.namenode.secondary.http-address</name>
-        <value>bigdata02:9868</value>
+        <value>node-etl-01:9868</value>
     </property>
     <property>
         <name>dfs.client.use.datanode.hostname</name>
