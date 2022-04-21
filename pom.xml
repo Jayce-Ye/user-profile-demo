@@ -18,6 +18,7 @@
         <module>task</module>
         <module>submitter</module>
         <module>mock</module>
+        <module>logger</module>
     </modules>
 
     <dependencies>

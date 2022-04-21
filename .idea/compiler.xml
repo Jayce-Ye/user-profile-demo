@@ -13,6 +13,7 @@
         <module name="task-tag-sql" />
         <module name="submitter" />
         <module name="task-export-ck" />
+        <module name="logger" />
         <module name="mock-log" />
         <module name="mock-common" />
         <module name="task-bitmap-ck" />
@@ -20,6 +21,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="logger" target="1.8" />
       <module name="manager" target="1.8" />
       <module name="mock" target="1.8" />
       <module name="mock-common" target="1.8" />
@@ -39,6 +41,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="logger" options="-parameters" />
       <module name="manager" options="-parameters" />
       <module name="mock" options="-parameters" />
       <module name="mock-common" options="-parameters" />
