@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://E:/2021年最新大数据项目 用户画像2.0/画像物料_[itjc8.com]/画像物料_[itjc8.com]/平台数据库脚本/user_profile_manager.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/manager/database/user_profile_manager.sql" dialect="MySQL" />
   </component>
 </project>
