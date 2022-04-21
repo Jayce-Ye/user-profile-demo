@@ -21,7 +21,7 @@ object TaskTagSqlApp {
 
 
      val sparkConf: SparkConf = new SparkConf().setAppName("task_tag_sql_app")
-       //.setMaster("local[*]")
+       .setMaster("local[*]")
      val sparkSession: SparkSession = SparkSession.builder().config(sparkConf).enableHiveSupport().getOrCreate()
 
 
