@@ -16,7 +16,6 @@
         <module>mock-common</module>
         <module>mock-db</module>
         <module>mock-log</module>
-        <module>mock-log</module>
     </modules>
 
     <dependencies>
