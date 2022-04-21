@@ -19,6 +19,7 @@
         <module>submitter</module>
         <module>mock</module>
         <module>logger</module>
+        <module>realtime</module>
     </modules>
 
     <dependencies>
@@ -32,6 +33,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.18</version>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 

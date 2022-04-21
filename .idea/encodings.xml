@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/mock/mock-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mock/mock-db/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mock/mock-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/realtime/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/submitter/src/main/java" charset="UTF-8" />
   </component>
 </project>

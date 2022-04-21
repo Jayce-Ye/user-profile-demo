@@ -7,16 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="task-bitmap-ck" />
         <module name="mock-db" />
         <module name="task-ml" />
         <module name="manager" />
         <module name="task-tag-sql" />
         <module name="submitter" />
-        <module name="task-export-ck" />
+        <module name="realtime" />
         <module name="logger" />
         <module name="mock-log" />
         <module name="mock-common" />
-        <module name="task-bitmap-ck" />
+        <module name="task-export-ck" />
         <module name="task-tag-merge" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
       <module name="mock-common" target="1.8" />
       <module name="mock-db" target="1.8" />
       <module name="mock-log" target="1.8" />
+      <module name="realtime" target="1.8" />
       <module name="submitter" target="1.8" />
       <module name="task" target="1.8" />
       <module name="task-bitmap-ck" target="1.8" />
@@ -47,6 +49,7 @@
       <module name="mock-common" options="-parameters" />
       <module name="mock-db" options="-parameters" />
       <module name="mock-log" options="-parameters" />
+      <module name="realtime" options="-parameters" />
       <module name="submitter" options="-parameters" />
       <module name="task-bitmap-ck" options="-parameters" />
       <module name="task-export-ck" options="-parameters" />
