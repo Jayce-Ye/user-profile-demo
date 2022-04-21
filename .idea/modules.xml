@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mock/mock.iml" filepath="$PROJECT_DIR$/mock/mock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mock/mock-common/mock-common.iml" filepath="$PROJECT_DIR$/mock/mock-common/mock-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mock/mock-db/mock-db.iml" filepath="$PROJECT_DIR$/mock/mock-db/mock-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mock/mock-log/mock-log.iml" filepath="$PROJECT_DIR$/mock/mock-log/mock-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/submitter/spark-rest-submitter.iml" filepath="$PROJECT_DIR$/submitter/spark-rest-submitter.iml" />
       <module fileurl="file://$PROJECT_DIR$/task/task.iml" filepath="$PROJECT_DIR$/task/task.iml" />
       <module fileurl="file://$PROJECT_DIR$/task/task-bitmap-ck/task-bitmap-ck.iml" filepath="$PROJECT_DIR$/task/task-bitmap-ck/task-bitmap-ck.iml" />

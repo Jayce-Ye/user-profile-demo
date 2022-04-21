@@ -17,6 +17,7 @@
         <module>manager</module>
         <module>task</module>
         <module>submitter</module>
+        <module>mock</module>
     </modules>
 
     <dependencies>
