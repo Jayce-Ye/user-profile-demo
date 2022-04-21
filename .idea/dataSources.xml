@@ -7,11 +7,17 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://node-etl-01:3306</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="node-etl-02@clickhouse" uuid="ec4a8058-428f-48b0-8758-8fea93ec7fcb">
+    <data-source source="LOCAL" name="clickhouse@node-etl-02" uuid="ec4a8058-428f-48b0-8758-8fea93ec7fcb">
       <driver-ref>clickhouse</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
       <jdbc-url>jdbc:clickhouse://node-etl-02:8123</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hive@node-etl-01" uuid="57ad73f5-e676-41ae-98df-f19f4f6280aa">
+      <driver-ref>hive</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://node-etl-01:10000</jdbc-url>
     </data-source>
   </component>
 </project>
