@@ -11,5 +11,46 @@
 
     <artifactId>mock-db</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.atguigu.userprofile</groupId>
+            <artifactId>mock-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!--mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+
+        <!--mysql-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+
+
+
+        <!--        <dependency>
+                    <groupId>org.apache.velocity</groupId>
+                    <artifactId>velocity-engine-core</artifactId>
+                    <version>2.0</version>
+                </dependency>-->
+
+
+    </dependencies>
 </project>
